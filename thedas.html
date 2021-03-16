@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Thedas</title>
+	<meta charset='UTF-8'/>
+	<link rel="stylesheet" type="text/css" href="css/stile.css">
+	<link rel="icon" href="immagini/icona.ico">
+	<script src="js/thedas.js"></script>
+</head>
+<body id="sezione">
+	<header>
+		<div class="m_navigazione" id="menu">
+			<a href="index.html">Home</a>
+			<a href="storia.html">Storia</a>
+			<a href="personaggi.html">Personaggi</a>
+			<a href="thedas.html" class = "pagina_corrente">Il Thedas</a>
+			<a href="info.html">Info</a>
+			<img src ="immagini/hamburger_menu.png" id = "menu_n" alt="menù responsive">
+		</div>
+	</header>
+	<div id = "contenuto">
+		<p id="titoloSezione">Il Thedas</p>
+		<img src = "immagini/inquisition.png" id = "inquisizioneThedas" alt = "stemma Inquisizione">
+		<div id = "primaSezioneThedas">
+			<img src = "immagini/thedasimg.jpg" id = "imgthedas" alt = "immagine Thedas">
+			<p id = "testoThedas">
+				Il Thedas è l'unico continente conosciuto dell'universo di Dragon Age, anche se si ipotizza che esistano altri continenti a nord, da cui verrebbero i Qunari e la stessa razza umana, stando a quello che alcuni dicono. Il termine Thedas è una parola dell'antica lingua parlata nell'Impero Tevinter, il tevene, e originariamente indicava "tutto ciò che si trova al di là dell'Impero". In realtà, il termine Thedas, non è altro che un acronimo usato dal team di sviluppo di <cite>Dragon Age</cite> e sta per "<b>The</b> <b>D</b>ragon <b>A</b>ge <b>S</b>etting".<br/>
+				Nell'Era del Drago, il Thedas è composto dalle seguenti regioni:
+			</p>
+			<ul id = "regioni">
+				<li>Anderfels</li>
+				<li>Antiva</li>
+				<li>Ferelden</li>
+				<li>Liberi Confini</li>
+				<li>Nevarra</li>
+				<li>Par Vollen</li>
+				<li>Seheron</li>
+				<li>Rivain</li>
+				<li>Impero Tevinter</li>
+				<li>Orlais</li>
+			</ul>
+		</div>
+		<div id = "wrapper_mappa">
+			<div id="mappa">
+				<img id = "thedasMap" src="immagini/mappa.jpg" usemap="#Map" alt = "mappa del Thedas"/>
+				<map name="Map" id = "Map">
+					<area id = "0" 
+					coords="139,386,255,242,514,147,569,315,440,495,119,622" 
+					shape="poly" />
+					<area id = "1" 
+					coords="582,299,652,143,690,190,662,392,746,444,806,395,874,255,941,297,982,285,949,468,898,553,713,566,600,563,560,564,460,494"
+					shape="poly" />
+					<area id = "2"
+					coords="833,1145,787,1026,799,869,924,830,1088,811,1154,838,1191,862,1237,905,1281,974,1284,1013,1175,1064,1192,1091,1124,1128,1107,1146" 
+					shape="poly" />
+					<area id = "3" 
+					coords="510,605,597,570,881,567,893,637,854,746,778,803,456,630"
+					shape="poly" />
+					<area id = "4" 
+					coords="110,649,76,752,138,851,247,925,281,1016,496,1117,814,1134,781,1033,784,865,505,1029,497,1005,575,930,698,818,733,780,446,640,443,643,446,640" 
+					shape="poly" />
+					<area id = "5" 
+					coords="918,626,1047,596,1277,575,1281,608,1222,693,1134,741,825,808"
+					shape="poly" />
+					<area id = "6" 
+					coords="996,291,932,568,925,598,1265,564,1263,483,1220,356,1222,278,1085,257" 
+					shape="poly" />
+					<area id = "7" 
+					coords="1235,286,1235,369,1281,327,1318,379,1342,473,1390,270,1352,184,1295,192"
+					shape="poly" />
+					<area id = "8" 
+					coords="719,54,717,187,789,263,830,211,901,212,917,195,890,144,808,129,760,99,751,49" 
+					shape="poly" />
+					<area id = "9" 
+					coords="1133,51,1469,49,1433,113,1414,64,1375,98,1266,103,1212,81"
+					shape="poly" />
+				</map>
+			</div>
+			<div id= "descrizione_container">
+				<h2 id = "titoloDescr"></h2>
+				<img id = "immagineDescr" src = "immagini/vuoto.png" alt = "immagine regione Thedas selezionata" >
+				<p id = "descrizione"></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
